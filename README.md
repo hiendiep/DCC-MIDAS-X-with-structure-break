@@ -1,4 +1,4 @@
-# Advanced Econometrics - Personal Skill Built-up Project
+# Advanced Econometrics - Personal Skill Built-up
 
 ## 1. Project Name
 Dynamic Correlation and Hedging Effectiveness of Bitcoin vs. Brent Crude Oil: DCC-MIDAS-X with Structure Break
