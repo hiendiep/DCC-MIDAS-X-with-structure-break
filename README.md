@@ -1,26 +1,46 @@
-Dynamic Correlation and Hedging Effectiveness of Bitcoin vs. Brent Crude Oil: DCC-MIDAS-X Analysis
+# Advanced Econometrics - Personal Skill Built-up Project
 
-1. Introduction
-+ This repository contains an R-based implementation of the DCC-MIDAS-X model with structural breaks, developed to analyze the dynamic correlation and hedging effectiveness of Bitcoin against Brent crude oil under the influence of Global Economic Policy Uncertainty (GEPU).
-+ The code supports the thesis, "The Dynamic Correlation and Hedging Effectiveness of Bitcoin against Brent Crude Oil under the Influence of Global Economic Policy Uncertainty"
-+ The thesis investigates how Bitcoin's volatility and correlation with Brent oil evolve from January 2016 to September 2024, focusing on GEPU's role and macroeconomic regime shifts identified via structural break analysis.
-+ The codebase estimates time-varying volatility and correlations using the GARCH-MIDAS-X and DCC-MIDAS-X frameworks, incorporating low-frequency GEPU data and structural breaks detected through the Bai-Perron test.
+## 1. Project Name
+Dynamic Correlation and Hedging Effectiveness of Bitcoin vs. Brent Crude Oil: DCC-MIDAS-X with Structure Break
 
-  
-2. Purpose: The primary objectives of this code are to:
-+ Estimate the dynamic volatility of Bitcoin and Brent oil using GARCH-MIDAS-X, accounting for GEPU and structural breaks.
-+ Model the time-varying correlation between Bitcoin and Brent oil with DCC-MIDAS-X, integrating GEPU as a macroeconomic driver.
-+ Assess Bitcoin's hedging effectiveness against Brent oil price volatility, calculating optimal hedge ratios and hedging effectiveness (HE) metrics.
-+ Provide a robust framework for analyzing asset relationships under macroeconomic uncertainty, applicable beyond the Bitcoin-oil context.
-  
-3. Features
+## 2. Domain
++ Financial Risk Management
++ Advanced Econometrics Modelling
++ Statistic, Linear Algebra, R statitical Programming
+
+
+## 3. Served Stakeholder
+Personal project
+
+## 4. Timeline
+Start to end: Dec-2024 to Feb-2025
+
+## 5. Scope of Work
++ Estimate the time-varying volatility & correlation of Bitcoin vs Brent oil, accounting for the influence of Global Economic Policy Uncertainty index (GEPU) and structural breaks.
++ Assess Bitcoin's hedging effectiveness against Brent oil, by formulating the dynamic hedge portfolio using time-varying predicted optimal hedge ratios.
++ Modify and extent R's DCC-MIDAS built-in function to DCC-MIDAS-X with structure break to incorporate GEPU index and its structural breakpoints for more accurate estimation.
+
+## 6. Process and Approach
+Input: Assets and Index time-series data
+Output: Estimating &  predicted time-varying volatility & correlation decomposed into short and long-term component of Bitcoin & Brent oil under the DCC-MIDAS-X model. See R code.
+Process and Features:
 + Data Loading: Imports daily Bitcoin and Brent oil prices, and monthly GEPU data from local Excel files (adaptable to other sources).
 + Structural Break Analysis: Implements the Bai-Perron test to detect regime shifts in GEPU, generating dummy variables for model integration.
 + Volatility Modeling: Fits GARCH-MIDAS-X to estimate short- and long-run volatility components with GEPU effects.
 + Correlation Modeling: Applies DCC-MIDAS-X to compute dynamic correlations, incorporating structural breaks and GEPU.
-+ Hedging Evaluation: Calculates hedge ratios, hedged returns, and hedging effectiveness metrics for performance analysis.
++ Hedging Evaluation: Predict the time-varying optimal hedge ratios, hedged vs unhedge returns, and hedging effectiveness index  for performance analysis.
 
-4. File
-+ Thesis report pdf file
-+ R code for methodology implementation
-+ Slide presentation 
+## 7. Outcome
++ Bitcoin shows relatively higher correltion with Brent under heightening EPU. So the hedge is better conducted under low GEPU and negative correlation is already observed 
++ Bitcoin shows low hedging effectiveness against Bitcoin due to already low absolute correlation, and better served as diversification rather than a hedge or safe-heave assets
++ DCC-MIDAS-X with structure break shows advantage over original model measured by AIC and BIC criteria
+   
+## 8. My Role
+- Project owner, Engineer
+- Responsible for 100% project development task 
+  
+## 9. Lessons Learned
+- Granular Econometrics model estimation procedure
+- Mathematic behind model equation, assumption, and estimation statistic
+- Quasi-newton Optimization,
+
