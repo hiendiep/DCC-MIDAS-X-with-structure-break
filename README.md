@@ -10,7 +10,9 @@ Dynamic Correlation and Hedging Effectiveness of Bitcoin vs. Brent Crude Oil: DC
 
 
 ## 3. Served Stakeholder
-Personal project
+Personal Skill built-up project  
+Teamate: Gia Nhi Nguyen (https://www.linkedin.com/in/gia-nhi-nguyen-1733a8146/)
+
 
 ## 4. Timeline
 Start to end: Dec-2024 to Feb-2025
@@ -37,7 +39,8 @@ Process and Features:
    
 ## 8. My Role
 - Project owner, Engineer
-- Responsible for 100% project development task 
+- Responsible for 100% quantitative task
+- Responsible for 60% of writing task 
   
 ## 9. Lessons Learned
 - Granular Econometrics model estimation procedure
